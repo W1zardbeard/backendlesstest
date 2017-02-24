@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
       "projectGuid": "8453e4b5-b95e-4b9b-9d1b-eda5effb6ae7",
-      "lastModifiedDate": 1486643578228,
+      "lastModifiedDate": 1487977874316,
       "creationDate": 1486643523428
     },
     "XDK-app-designer": "false",
@@ -90,7 +90,7 @@
           "android-signed": true
         },
         "isActive_": true,
-        "certificateId_": "",
+        "certificateId_": "bINwziR4rUuX4PexKFTb8Q2",
         "appName_": "taskExample",
         "appID_": "xdk.intel.cordova.template.lite",
         "appAccess_": {

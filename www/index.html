@@ -8,12 +8,6 @@
     
     <!--Jquery stuff-->
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <!--backendless-->
-    <script src="js/backendless.min.js" type="text/javascript"></script>
-    <!--my js file-->
-    <script src="js/app.js"></script>
     <!--css reset-->
     <link rel="stylesheet" type="text/css" href="css/cssReset.css">
     <!--my css-->
@@ -21,16 +15,16 @@
 </head>
 
 <body>
-<div id="wrapper">
+<div id="page1" data-role="page">
     
     <div id="formCont">
         <label for="textIn">Input: </label>
-        <input type="text" name="textIn" id="textIn" value="" data-clear-btn="true">
+        <input type="text" name="taskInput" id="textIn" value="" data-clear-btn="true">
         <input type="button" id="addTaskButton" value="Add Task" />
         <ul data-role="listview" id="taskList">
-            <li>First Task</li>
-            <li>Another Task</li>
+            <label><li><input type="checkbox"></li></label>
         </ul> 
+
 
     </div>
          
@@ -39,5 +33,13 @@
     
     
     </div>
+    
+    <!--js links-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!--backendless-->
+    <script src="js/backendless.min.js" type="text/javascript"></script>
+    <!--my js file-->
+    <script src="js/app.js"></script>
 </body>
 </html>
