@@ -3,6 +3,7 @@
 <head>
 
 	<meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=0.75, maximum-scale=1, minimum-scale=0.75, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
 	<title>Untitled Document</title>
     
     
@@ -20,19 +21,20 @@
     <div id="formCont">
         <label for="textIn">Input: </label>
         <input type="text" name="taskInput" id="textIn" value="" data-clear-btn="true">
-        <input type="button" id="addTaskButton" value="Add Task" />
-        <ul data-role="listview" id="taskList">
-            <label><li><input type="checkbox"></li></label>
-        </ul> 
-
-
+        <input type="button" id="addTaskButton" value="Add Task"/>
+        <input type="button" id="deleteButton" value="Delete Task" class="hidden"/>
+        <div id="taskLister">
+            <ul data-role="listview" id="taskList">
+                <label><li><input type="checkbox"></li></label>
+            </ul> 
+        </div>
     </div>
          
          
     
     
     
-    </div>
+</div>
     
     <!--js links-->
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>

@@ -1,8 +1,19 @@
-body{
-    font-family:sans-serif;
-}
+body {
+  font-family: sans-serif; }
 
-#formCont{
-    margin:10%;
-}
+#formCont {
+  margin: 10%; }
 
+#taskLister {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  max-height: 250px; }
+
+#taskLister label {
+  padding: 5%;
+  border-bottom: 1px dotted #cecece; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
